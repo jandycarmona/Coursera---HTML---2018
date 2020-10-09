@@ -1,0 +1,28 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    /* join all the cells */
+}
+
+th:hover {
+    background: #333;
+}
+
+td {
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #444;
+    color: #fff;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 10px;
+}
